@@ -1,0 +1,10 @@
+Brendan Griffiths 2426285
+Nihal Ranchod 2427378
+Lisa Godwin 2437980
+
+Chose Probabilistic Roadmap for following reasons:
+* Simple Configuration Space - The C-Space only has rectangular obstacles, making connectedness a cheap computation
+* Algorithm is easier to write
+* If no path can be found, the graph can be cheaply regenerated
+* Relies on A* for pathfinding, with good heauristic of euclidean distance making it reliable
+* K-Nearest Neigbours is fairly cheap especially with good implementation and only graph sizes
